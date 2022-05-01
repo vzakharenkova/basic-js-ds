@@ -44,6 +44,7 @@ class BinarySearchTree {
     return searchWithin(this.treeRoot, data);
   }
 
+  
   find(data) {
     function search (node) {
       if (node === null) return null;
